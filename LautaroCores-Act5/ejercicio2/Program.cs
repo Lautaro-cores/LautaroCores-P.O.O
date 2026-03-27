@@ -80,6 +80,7 @@ namespace ejercicio2
                     Console.WriteLine("escaleno es el que tiene menos triangulos");
                 }
             }
+            Console.ReadKey();
         }
     }
 }

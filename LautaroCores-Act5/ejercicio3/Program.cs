@@ -56,6 +56,7 @@ namespace ejercicio3
             Console.WriteLine("cantidad de numeros positivos: " + pos);
             Console.WriteLine("cantidad de multiplos de 15: " + mul);
             Console.WriteLine("valor sumado de los pares: " + sum);
+            Console.ReadKey();
         }
     }
 }

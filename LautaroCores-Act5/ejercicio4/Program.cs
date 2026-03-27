@@ -62,7 +62,7 @@ promedio de edades menor.*/
             {
                 Console.WriteLine("el promedio mas bajo es el turno noche");
             }
-           
+           Console.ReadKey();
         }
     }
 }
