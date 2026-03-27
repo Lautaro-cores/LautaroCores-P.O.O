@@ -8,6 +8,9 @@ namespace ejercicio4
 {
     class calculadora
     {
+        /*4. Implementar la clase operaciones. Se deben cargar dos valores enteros,
+calcular su suma, resta, multiplicación y división, cada una en un método,
+imprimir dichos resultados.*/
         private int num1, num2,suma,resta,multi,division;
         private string linea;
 
@@ -48,6 +51,7 @@ namespace ejercicio4
         {
             calculadora num = new calculadora();
             num.cargarNum();
+            Console.ReadKey();
         }
     }
 }
