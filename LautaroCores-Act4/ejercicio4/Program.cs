@@ -26,30 +26,52 @@ namespace ejercicio4
  */
             int numcuenta, saldo, total;
             string linea;
+            int[] numerocuenta = new int[0];
+            string[] estado = new string[0];
             total = 0;
             do
             {
                 Console.WriteLine("ingrese su numero de cuenta");
                 linea = Console.ReadLine();
                 numcuenta = int.Parse(linea);
+                
                 if (numcuenta >= 0)
                 {
+                    string estadoCuenta;
+                    numerocuenta = numerocuenta.Append(numcuenta).ToArray();
                     Console.WriteLine("ingrese su saldo");
                     linea = Console.ReadLine();
                     saldo = int.Parse(linea);
-                    
+
                     if (saldo > 0)
                     {
                         total = total + saldo;
+                        estadoCuenta = "Acreedor";
                     }
+                    else
+                    {
+                        if (saldo < 0)
+                        {
+                            estadoCuenta = "Deudor";
+                        }
+                        else
+                        {
+                            estadoCuenta = "Nulo";
+                        }
 
+                    }
+                    estado = estado.Append(estadoCuenta).ToArray();
 
                 }
-
             }
             while (numcuenta >= 0);
-            Console.WriteLine("la suma total de los acreedores es: " + total);
-
+                for (int i = 0; i < numerocuenta.Length; i++)
+                {
+                    Console.WriteLine("numero de cuenta: " + numerocuenta[i]);
+                    Console.WriteLine("estado de la cuenta: " + estado[i]);
+                }
+                Console.WriteLine("la suma total de los acreedores es: " + total);
+                Console.ReadKey();
         }
-    }
-}
+            }
+    } 
