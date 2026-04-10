@@ -28,42 +28,44 @@ ordenado de menor a mayor y de mayor a menor.*/
 
         public void menorMayor()
         {
+            int cont = 0;
             int menor = vector[0];
             for (int i = 0; i < vector.Length; i++)
             {
-                int cont = 0;
-                if (menor < vector[i])
+                
+                if (menor <= vector[i])
                 {
                     menor = vector[i];
                     cont++;
-                    Console.Write(cont);
+                    
 
                 }
 
-                if (cont == vector.Length)
-                {
-                    Console.WriteLine("el vector esta ordenado de menor a mayor");
-                }
-
+            }
+           
+            if (cont == vector.Length)
+            {
+                Console.WriteLine("el vector esta ordenado de menor a mayor");
             }
         }
         public void mayorMenor()
         {
+            int cont = 0;
             int mayor = vector[0];
             for (int i = 0; i < vector.Length; i++)
             {
-                int cont = 0;
-                if (mayor > vector[i])
+
+                if (mayor >= vector[i])
                 {
                     mayor = vector[i];
                     cont++;
                 }
 
-                if (cont == vector.Length)
-                {
-                    Console.WriteLine("el vector esta ordenado de menor a mayor");
-                }
 
+            }
+            if (cont == vector.Length)
+            {
+                Console.WriteLine("el vector esta ordenado de menor a mayor");
             }
         }
 
