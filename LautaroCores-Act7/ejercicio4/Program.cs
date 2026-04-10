@@ -23,17 +23,17 @@ ordenado de menor a mayor y de mayor a menor.*/
                 linea = Console.ReadLine();
                 vector[i] = int.Parse(linea);
             }
-            Console.WriteLine("a");
+
         }
 
         public void menorMayor()
         {
             int cont = 0;
             int menor = vector[0];
-            for (int i = 0; i < vector.Length; i++)
+            for (int i = 1; i < vector.Length; i++)
             {
                 
-                if (menor <= vector[i])
+                if (menor < vector[i])
                 {
                     menor = vector[i];
                     cont++;
@@ -42,9 +42,10 @@ ordenado de menor a mayor y de mayor a menor.*/
                 }
 
             }
-           
-            if (cont == vector.Length)
+            
+            if (cont == vector.Length - 1)
             {
+
                 Console.WriteLine("el vector esta ordenado de menor a mayor");
             }
         }
@@ -52,10 +53,10 @@ ordenado de menor a mayor y de mayor a menor.*/
         {
             int cont = 0;
             int mayor = vector[0];
-            for (int i = 0; i < vector.Length; i++)
+            for (int i = 1; i < vector.Length; i++)
             {
 
-                if (mayor >= vector[i])
+                if (mayor > vector[i])
                 {
                     mayor = vector[i];
                     cont++;
@@ -63,7 +64,7 @@ ordenado de menor a mayor y de mayor a menor.*/
 
 
             }
-            if (cont == vector.Length)
+            if (cont == vector.Length - 1)
             {
                 Console.WriteLine("el vector esta ordenado de menor a mayor");
             }
