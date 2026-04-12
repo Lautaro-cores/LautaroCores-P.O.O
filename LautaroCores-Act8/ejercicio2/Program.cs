@@ -9,7 +9,8 @@ namespace ejercicio2
 {
     internal class vectorPaises
     {
-
+        /*2. Definir un vector donde almacenar los nombres de 5 países. Confeccionar el
+algoritmo de ordenamiento alfabético.*/
         private string[] paises;
 
         public void ordenarPaises()
