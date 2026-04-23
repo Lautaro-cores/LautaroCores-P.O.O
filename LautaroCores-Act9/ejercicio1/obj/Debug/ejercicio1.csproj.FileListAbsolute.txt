@@ -12,3 +12,10 @@ C:\Users\alumno\Downloads\LautaroCores-P.O.O-main\LautaroCores-P.O.O-main\Lautar
 C:\Users\alumno\Downloads\LautaroCores-P.O.O-main\LautaroCores-P.O.O-main\LautaroCores-Act9\ejercicio1\obj\Debug\ejercicio1.csproj.CoreCompileInputs.cache
 C:\Users\alumno\Downloads\LautaroCores-P.O.O-main\LautaroCores-P.O.O-main\LautaroCores-Act9\ejercicio1\obj\Debug\ejercicio1.exe
 C:\Users\alumno\Downloads\LautaroCores-P.O.O-main\LautaroCores-P.O.O-main\LautaroCores-Act9\ejercicio1\obj\Debug\ejercicio1.pdb
+C:\xampp\htdocs\LautaroCores-P.O.O\LautaroCores-Act9\ejercicio1\bin\Debug\ejercicio1.exe.config
+C:\xampp\htdocs\LautaroCores-P.O.O\LautaroCores-Act9\ejercicio1\bin\Debug\ejercicio1.exe
+C:\xampp\htdocs\LautaroCores-P.O.O\LautaroCores-Act9\ejercicio1\bin\Debug\ejercicio1.pdb
+C:\xampp\htdocs\LautaroCores-P.O.O\LautaroCores-Act9\ejercicio1\obj\Debug\ejercicio1.csproj.AssemblyReference.cache
+C:\xampp\htdocs\LautaroCores-P.O.O\LautaroCores-Act9\ejercicio1\obj\Debug\ejercicio1.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\LautaroCores-P.O.O\LautaroCores-Act9\ejercicio1\obj\Debug\ejercicio1.exe
+C:\xampp\htdocs\LautaroCores-P.O.O\LautaroCores-Act9\ejercicio1\obj\Debug\ejercicio1.pdb

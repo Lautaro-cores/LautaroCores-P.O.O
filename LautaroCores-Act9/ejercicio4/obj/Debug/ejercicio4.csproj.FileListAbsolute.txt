@@ -1,0 +1,7 @@
+C:\xampp\htdocs\LautaroCores-P.O.O\LautaroCores-Act9\ejercicio4\bin\Debug\ejercicio4.exe.config
+C:\xampp\htdocs\LautaroCores-P.O.O\LautaroCores-Act9\ejercicio4\bin\Debug\ejercicio4.exe
+C:\xampp\htdocs\LautaroCores-P.O.O\LautaroCores-Act9\ejercicio4\bin\Debug\ejercicio4.pdb
+C:\xampp\htdocs\LautaroCores-P.O.O\LautaroCores-Act9\ejercicio4\obj\Debug\ejercicio4.csproj.AssemblyReference.cache
+C:\xampp\htdocs\LautaroCores-P.O.O\LautaroCores-Act9\ejercicio4\obj\Debug\ejercicio4.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\LautaroCores-P.O.O\LautaroCores-Act9\ejercicio4\obj\Debug\ejercicio4.exe
+C:\xampp\htdocs\LautaroCores-P.O.O\LautaroCores-Act9\ejercicio4\obj\Debug\ejercicio4.pdb

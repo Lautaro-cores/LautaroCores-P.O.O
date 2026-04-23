@@ -10,13 +10,13 @@ namespace ejercicio3
 
         internal class altletasTiempos
         {
-            /*2. Una empresa registra los nombres de sus 5 vendedores y el total de ventas
-    realizadas por cada uno en un mes. Cargar los nombres y ventas en dos
-    vectores paralelos, ordenar los datos de mayor a menor según las ventas,
-    imprimir la lista ordenada con nombre y monto de la venta, e informar quien fue
-    el que menos vendió de los 5 empleados.*/
+        /*3. Se registran los nombres de 5 atletas y sus tiempos (en segundos) en una
+carrera de 100 metros. El programa debe cargar los datos en dos vectores
+paralelos, calcular y mostrar el promedio de los tiempos, mostrar el nombre del
+atleta con mejor y peor tiempo, y mostrar los nombres de quienes superaron el
+promedio.*/
 
-            private string[] atleta;
+        private string[] atleta;
 
             private int[] tiempos;
 
@@ -60,35 +60,35 @@ namespace ejercicio3
         }
         public void tiemposMejores()
         {
-            int alta = tiempos[0];
+            int mejor = tiempos[0];
             for (int i = 0; i < atleta.Length; i++)
             {
-                if (alta < tiempos[i])
+                if (mejor > tiempos[i])
                 {
-                    alta = tiempos[i];
+                    mejor = tiempos[i];
                 }
             }
             Console.WriteLine("el atleta con el mejor tiempo es :");
             for (int i = 0; i < atleta.Length; i++)
             {
-                if (alta == tiempos[i])
+                if (mejor == tiempos[i])
                 {
 
                     Console.WriteLine(atleta[i] + ": " + tiempos[i]);
                 }
             }
-            int baja = tiempos[0];
+            int peor = tiempos[0];
             for (int i = 0; i < atleta.Length; i++)
             {
-                if (baja > tiempos[i])
+                if (peor < tiempos[i])
                 {
-                    baja = tiempos[i];
+                    peor = tiempos[i];
                 }
             }
             Console.WriteLine("el atleta con el peor tiempo es :");
             for (int i = 0; i < atleta.Length; i++)
             {
-                if (baja == tiempos[i])
+                if (peor == tiempos[i])
                 {
 
                     Console.WriteLine(atleta[i] + ": " + tiempos[i]);
