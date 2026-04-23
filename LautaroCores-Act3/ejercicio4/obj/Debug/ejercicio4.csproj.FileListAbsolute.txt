@@ -1,0 +1,7 @@
+C:\Users\lautaro\source\repos\LautaroCores-Act3\ejercicio4\bin\Debug\ejercicio4.exe.config
+C:\Users\lautaro\source\repos\LautaroCores-Act3\ejercicio4\bin\Debug\ejercicio4.exe
+C:\Users\lautaro\source\repos\LautaroCores-Act3\ejercicio4\bin\Debug\ejercicio4.pdb
+C:\Users\lautaro\source\repos\LautaroCores-Act3\ejercicio4\obj\Debug\ejercicio4.csproj.AssemblyReference.cache
+C:\Users\lautaro\source\repos\LautaroCores-Act3\ejercicio4\obj\Debug\ejercicio4.csproj.CoreCompileInputs.cache
+C:\Users\lautaro\source\repos\LautaroCores-Act3\ejercicio4\obj\Debug\ejercicio4.exe
+C:\Users\lautaro\source\repos\LautaroCores-Act3\ejercicio4\obj\Debug\ejercicio4.pdb
