@@ -36,39 +36,23 @@ complejo.*/
 
         private void VentaEntradas()
         {
-            int aux = 0;
-            int aux2 = 0;
+     
             int edad = 0;
-            int entradas = 0;
-            Console.WriteLine("cuantas entradas va a comprar");
-            string linea = Console.ReadLine();
-            entradas = int.Parse(linea);
-            for (int i = 0; i < entradas; i++)
-            {
-                Console.WriteLine("indique en que sala va a estar");
-                linea = Console.ReadLine();
-                aux = int.Parse(linea);
-                Console.WriteLine("indique en que asiento va a estar, hay " + asientos[aux].Length + " asientos ");
-                linea = Console.ReadLine();
-                aux2 = int.Parse(linea);
-                while (aux2 > asientos[aux].Length)
-                {
-                    Console.WriteLine("indique devuelta un asiento disponible ");
-                    linea = Console.ReadLine();
-                    aux2 = int.Parse(linea);
-                }
-                while (asientos[aux][aux2] != 0)
-                {
-                    Console.WriteLine("el asiento se ecuentra ocupado, ingrese otro ");
-                    linea = Console.ReadLine();
-                    aux2 = int.Parse(linea);
-                }
-                Console.WriteLine("ingrese su edad");
-                linea = Console.ReadLine();
-                edad = int.Parse(linea);
 
-                asientos[aux][aux2] = edad;
+            for (int i = 0; i < asientos.Length; i++)
+            {
+                
+                for (int j = 0; j < asientos[i].Length; j++)
+                {
+                    Console.WriteLine("ingrese su edad");
+                    string linea = Console.ReadLine();
+                    edad = int.Parse(linea);
+
+                    asientos[i][j] = edad;
+                }
             }
+          
+   
         }
 
         private void MapaAsientos()
