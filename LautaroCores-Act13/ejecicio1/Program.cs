@@ -9,6 +9,12 @@ namespace LautaroCores_Act13
 {
     internal class Empleado
     {
+
+        /*1. Confeccionar una clase que represente un empleado. Definir como atributos su
+nombre y su sueldo. En el constructor cargar los atributos y luego en otro
+método imprimir sus datos y por último uno que imprima un mensaje si debe
+pagar impuestos (si el sueldo supera a 3000)*/
+
         private string nombre;
         private int sueldo;
         private Empleado()
