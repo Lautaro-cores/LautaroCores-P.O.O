@@ -35,7 +35,6 @@ e. Imprimir el nombre del país con la temperatura media trimestral mayor.
             for (int i = 0; i < nombrePais.Length; i++)
             {
                 Console.WriteLine("ingrese el nombre del pais: ");
-                Console.WriteLine("");
                 string linea = Console.ReadLine();
                 nombrePais[i] = linea;
 
@@ -67,10 +66,10 @@ e. Imprimir el nombre del país con la temperatura media trimestral mayor.
 
         public void calcular()
         {
-            int aux = 0;
-            int promedio =0;
+            
             for (int i = 0; i < nombrePais.Length; i++)
             {
+                int aux = 0;
                 Console.WriteLine("pais: " + nombrePais[i]);
 
                 for (int j = 0; j < temperaturas.GetLength(1); j++)
@@ -79,7 +78,7 @@ e. Imprimir el nombre del país con la temperatura media trimestral mayor.
                    aux = aux + temperaturas[i, j];
                 }
 
-                promedio = aux / temperaturas.GetLength(1);
+                int promedio = aux / temperaturas.GetLength(1);
                 tempmedia[i] = promedio;
                 Console.WriteLine("temperatura media:" + promedio);
             }
@@ -101,7 +100,7 @@ e. Imprimir el nombre del país con la temperatura media trimestral mayor.
                 }
 
             }
-            Console.WriteLine("el pais con mayor media: " + nombre + " con " + temp + "de media");
+            Console.WriteLine("el pais con mayor media: " + nombre + " con " + temp + " de media");
         }
 
         static void Main(string[] args)
