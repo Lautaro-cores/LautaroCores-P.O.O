@@ -45,8 +45,8 @@ Un método que muestre la patente del vehículo que pagó la tarifa más cara.
 
         public void Imprimir()
         {
-            Console.WriteLine("patente: " + patente);
-            Console.WriteLine("tipo de vehiculo: " + tipo);
+            Console.WriteLine($"patente: {patente}");
+            Console.WriteLine($"tipo de vehiculo: {tipo}");
         }
 
         public float ReturnTarifa()
@@ -69,7 +69,7 @@ Un método que muestre la patente del vehículo que pagó la tarifa más cara.
         public CabinaPeaje() 
         {
             indeficador = 87;
-            Console.WriteLine("Cabina N°" + indeficador);   
+            Console.WriteLine($"Cabina N°{indeficador}");   
             vehiculo1 = new Vehiculo();            
             vehiculo2 = new Vehiculo();
             vehiculo3 = new Vehiculo();
@@ -85,7 +85,7 @@ Un método que muestre la patente del vehículo que pagó la tarifa más cara.
         public void Recaudacion()
         {
            float recaudacion = vehiculo1.ReturnTarifa() + vehiculo2.ReturnTarifa() + vehiculo3.ReturnTarifa();
-           Console.WriteLine("la recaudacion total del peaje es de: " + recaudacion);
+           Console.WriteLine($"la recaudacion total del peaje es de: {recaudacion}");
         }
 
         public void TarifaCara()
@@ -96,15 +96,15 @@ Un método que muestre la patente del vehículo que pagó la tarifa más cara.
 
             if (tarifa1 > tarifa2 && tarifa1 > tarifa3)
             {
-                Console.WriteLine("el vehiculo con la patente " + vehiculo1.ReturnPatente() + " pago la tarifa mas cara");
+                Console.WriteLine($"el vehiculo con la patente {vehiculo1.ReturnPatente()} pago la tarifa mas cara");
             }
             else if (tarifa2 > tarifa1 && tarifa2 > tarifa3)
             {
-                Console.WriteLine("el vehiculo con la patente " + vehiculo2.ReturnPatente() + " pago la tarifa mas cara");
+                Console.WriteLine($"el vehiculo con la patente {vehiculo2.ReturnPatente()} pago la tarifa mas cara");
             }
             else 
             {
-                Console.WriteLine("el vehiculo con la patente " + vehiculo3.ReturnPatente() + " pago la tarifa mas cara");
+                Console.WriteLine($"el vehiculo con la patente {vehiculo3.ReturnPatente()} pago la tarifa mas cara");
             }
 
         }

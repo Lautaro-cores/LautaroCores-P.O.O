@@ -20,7 +20,7 @@ Un método que informe si algún pasajero excede el límite permitido de equipaj
     {
         private string Nombre;
         private int Dni;
-        private float EquipajeKilos;
+        private double EquipajeKilos;
 
         public Pasajero()
         {
@@ -31,16 +31,9 @@ Un método que informe si algún pasajero excede el límite permitido de equipaj
             Dni = int.Parse(linea);
             Console.WriteLine("ingrese el peso de su equipaje");
             linea = Console.ReadLine();
-            EquipajeKilos = float.Parse(linea);
+            EquipajeKilos = double.Parse(linea);
         }
 
-        public void Imprimir()
-        {
-            Console.WriteLine("nombre del pasajero: " + Nombre);
-            Console.WriteLine("dni del pasajero: " + Dni);
-            Console.WriteLine("peso del equipaje: " + EquipajeKilos);
-            Console.WriteLine();
-        }
         public string NombreP()
         {
             return Nombre;
@@ -51,7 +44,7 @@ Un método que informe si algún pasajero excede el límite permitido de equipaj
             return Dni;
         }
     
-        public float Peso()
+        public double Peso()
         { 
             return EquipajeKilos;
         }
@@ -72,20 +65,20 @@ Un método que informe si algún pasajero excede el límite permitido de equipaj
             
         public void ImprimirLista()
         {
-            for (int i = 0;i < pasajeros.Length; i++)
+            for (int i = 0; i < pasajeros.Length; i++)
             {
-                pasajeros[i].Imprimir();
+                Console.WriteLine($"{pasajeros[i].NombreP()} dni:{pasajeros[i].DniP()} peso:{pasajeros[i].Peso()} kg");
             }
         }
 
         public void PesoTotal()
         {
-            float total = 0;
+            double total = 0;
             for (int i = 0; i < pasajeros.Length; i++) 
             {
                 total += pasajeros[i].Peso();
             }   
-            Console.WriteLine("el peso total en el vuelo es de " + total + " kilos");
+            Console.WriteLine($"el peso total en el vuelo es de {total} kilos");
         }
 
         public void ExcesoPeso()
@@ -94,7 +87,7 @@ Un método que informe si algún pasajero excede el límite permitido de equipaj
             {
                 if (pasajeros[i].Peso() > 23)
                 {
-                    Console.WriteLine("el pasajero " + pasajeros[i].NombreP() + " de dni " + pasajeros[i].DniP() + " se excedio del peso permitido");
+                    Console.WriteLine($"el pasajero {pasajeros[i].NombreP()} de dni {pasajeros[i].DniP()} se excedio del peso permitido");
                 }
             }
         }
