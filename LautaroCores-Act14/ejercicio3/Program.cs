@@ -20,20 +20,20 @@ Un método que muestre a los atletas que superaron el promedio.
 */
     internal class Atleta
     {
-        private string nombre;
-        private double tiempoSegundos;
+        private string Nombre;
+        private double TiempoSegundos;
         public Atleta(string n, double ts)
         {
-            nombre = n;
-            tiempoSegundos = ts;
+            Nombre = n;
+            TiempoSegundos = ts;
         }
-        public string Nombre()
+        public string nombreA()
         { 
-            return nombre;  
+            return Nombre;  
         }
-        public double TiempoSegundos() 
+        public double tiempoSegundosA() 
         {
-            return tiempoSegundos; 
+            return TiempoSegundos; 
         }
     }
 
@@ -49,34 +49,34 @@ Un método que muestre a los atletas que superaron el promedio.
         }
         public void ImprimirLista()
         {
-            Console.WriteLine($"{atleta1.Nombre()}: {atleta1.TiempoSegundos()} segundos");
-            Console.WriteLine($"{atleta2.Nombre()}: {atleta2.TiempoSegundos()} segundos");
-            Console.WriteLine($"{atleta3.Nombre()}: {atleta3.TiempoSegundos()} segundos");
+            Console.WriteLine($"{atleta1.nombreA()}: {atleta1.tiempoSegundosA()} segundos");
+            Console.WriteLine($"{atleta2.nombreA()}: {atleta2.tiempoSegundosA()} segundos");
+            Console.WriteLine($"{atleta3.nombreA()}: {atleta3.tiempoSegundosA()} segundos");
         }
         public void Promedio()
         {
-            double promedio = (atleta1.TiempoSegundos() + atleta2.TiempoSegundos() + atleta3.TiempoSegundos()) / 3;
-            Console.WriteLine($"Tiempo promedio: {promedio} segundos");
+            double promedio = (atleta1.tiempoSegundosA() + atleta2.tiempoSegundosA() + atleta3.tiempoSegundosA()) / 3;
+            Console.WriteLine($"tiempo promedio: {promedio} ");
         }
         public void Ganador()
         {
             Atleta ganador = atleta1;
-            if (atleta2.TiempoSegundos() < ganador.TiempoSegundos())
+            if (atleta2.tiempoSegundosA() < ganador.tiempoSegundosA())
                 ganador = atleta2;
-            if (atleta3.TiempoSegundos() < ganador.TiempoSegundos())
+            if (atleta3.tiempoSegundosA() < ganador.tiempoSegundosA())
                 ganador = atleta3;
-            Console.WriteLine($"El ganador es: {ganador.Nombre()} con un tiempo de {ganador.TiempoSegundos()} segundos");
+            Console.WriteLine($"el ganador es: {ganador.nombreA()} con un tiempo de {ganador.tiempoSegundosA()} segundos");
         }
         public void SuperaronPromedio()
         {
-            double promedio = (atleta1.TiempoSegundos() + atleta2.TiempoSegundos() + atleta3.TiempoSegundos()) / 3;
-            Console.WriteLine("Atletas que superaron el promedio:");
-            if (atleta1.TiempoSegundos() < promedio)
-                Console.WriteLine(atleta1.Nombre());
-            if (atleta2.TiempoSegundos() < promedio)
-                Console.WriteLine(atleta2.Nombre());
-            if (atleta3.TiempoSegundos() < promedio)
-                Console.WriteLine(atleta3.Nombre());
+            double promedio = (atleta1.tiempoSegundosA() + atleta2.tiempoSegundosA() + atleta3.tiempoSegundosA()) / 3;
+            Console.WriteLine("atletas que superaron el promedio:");
+            if (atleta1.tiempoSegundosA() < promedio)
+                Console.WriteLine(atleta1.nombreA());
+            if (atleta2.tiempoSegundosA() < promedio)
+                Console.WriteLine(atleta2.nombreA());
+            if (atleta3.tiempoSegundosA() < promedio)
+                Console.WriteLine(atleta3.nombreA());
         }
     
 

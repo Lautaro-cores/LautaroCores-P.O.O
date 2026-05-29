@@ -62,7 +62,6 @@ Un método que verifique e indique qué artículos de la sucursal requieren repo
         }
         public void ImprimirLista()
         {
-            Console.WriteLine($"inventario de la sucursal {NombreSucursal}:");
             for (int i = 0; i < articulos.Length; i++)
             {
                 double valorTotal = articulos[i].PrecioA() * articulos[i].StockA();
@@ -87,7 +86,7 @@ Un método que verifique e indique qué artículos de la sucursal requieren repo
             {
                 if (articulos[i].StockA() <= 5)
                 {
-                    Console.WriteLine($"{articulos[i].NombreA()} con stock actual de {articulos[i].StockA()} unidades");
+                    Console.WriteLine($"{articulos[i].NombreA()} con {articulos[i].StockA()} unidades, necesita reposicion");
                 }
             }
         }
