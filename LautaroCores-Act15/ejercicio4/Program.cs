@@ -47,9 +47,9 @@ tiempo por operación más bajo de la planta).*/
             for (int i = 0; i < 4; i++)
             {
                 Console.Write($"ingrese la cantidad de subtareas para la fase {fases[i]}: ");
-                int cantidadSubTareas = int.Parse(Console.ReadLine());
-                TiemposOp[i] = new double[cantidadSubTareas];
-                for (int b = 0; b < cantidadSubTareas; b++)
+                int cantSubTareas = int.Parse(Console.ReadLine());
+                TiemposOp[i] = new double[cantSubTareas];
+                for (int b = 0; b < cantSubTareas; b++)
                 {
                     Console.Write($"ingrese el tiempo en segundos para la subtarea {b + 1} de la fase {fases[i]}: ");
                     TiemposOp[i][b] = double.Parse(Console.ReadLine());

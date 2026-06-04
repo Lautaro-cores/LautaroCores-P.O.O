@@ -53,7 +53,7 @@ pulsaciones), mostrando por consola su nombre y la lectura detectada.*/
                 return Nombre;
         }
 
-        public int[,] GetRitmoCardiaco()
+        public int[,] ritmoCardiaco()
         {
             return RitmoCardiaco;
         }
@@ -82,7 +82,7 @@ pulsaciones), mostrando por consola su nombre y la lectura detectada.*/
                   Console.Write($"dia {j + 1}: ");
                   for (int b = 0; b < 4; b++)
                   {
-                      Console.Write($"{pacientes[i].GetRitmoCardiaco()[j, b]} ");
+                      Console.Write($"{pacientes[i].ritmoCardiaco()[j, b]} ");
                   }
                   Console.WriteLine();
               }
@@ -99,7 +99,7 @@ pulsaciones), mostrando por consola su nombre y la lectura detectada.*/
                 {
                     for (int b = 0; b < 4; b++)
                     {
-                        aux += pacientes[i].GetRitmoCardiaco()[j, b];
+                        aux += pacientes[i].ritmoCardiaco()[j, b];
                
                     }
                 }
@@ -115,9 +115,9 @@ pulsaciones), mostrando por consola su nombre y la lectura detectada.*/
                 {
                     for (int b = 0; b < 4; b++)
                     {
-                        if (pacientes[i].GetRitmoCardiaco()[j, b] > 120)
+                        if (pacientes[i].ritmoCardiaco()[j, b] > 120)
                         {
-                            Console.WriteLine($"taquicardia severa detectada en {pacientes[i].nombre()} con lectura: {pacientes[i].GetRitmoCardiaco()[j, b]}");
+                            Console.WriteLine($"taquicardia severa detectada en {pacientes[i].nombre()} con lectura: {pacientes[i].ritmoCardiaco()[j, b]}");
                         }
                     }
                 }

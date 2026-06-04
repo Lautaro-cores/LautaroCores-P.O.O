@@ -102,7 +102,7 @@ reservas, indicando a qué reserva pertenece.*/
                     }
                 }
             }
-            Console.WriteLine($"Mayor concentración de avistamientos: {maxAvist} en la reserva {reserva} en el sector [{fila}, {columna}]");
+            Console.WriteLine($"mayor concentración de avistamientos: {maxAvist} en la reserva {reserva} en el sector [{fila}, {columna}]");
         }
 
         static void Main(string[] args)

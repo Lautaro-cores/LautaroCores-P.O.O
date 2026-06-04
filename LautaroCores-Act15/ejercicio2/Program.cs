@@ -61,7 +61,7 @@ total (la suma de todos sus contenedores).*/
                 PesoCont[i] = new int[cantidadBodegas];
                 for (int b = 0; b < cantidadBodegas; b++)
                 {
-                    Console.Write($"ingrese el peso del contenedor asignado a la bodega {b + 1} de la nave {Naves[i].nombreNave()}: ");
+                    Console.Write($"ingrese el peso del contenedor de la bodega {b + 1} de la nave {Naves[i].nombreNave()}: ");
                     PesoCont[i][b] = int.Parse(Console.ReadLine());
                 }
             }
@@ -96,6 +96,7 @@ total (la suma de todos sus contenedores).*/
         }
         public void MenorPesoAcumulado()
         {
+            int aux = 0;
             int minPeso = 0;
             string navePeso = "";
             for (int i = 0; i < PesoCont.Length; i++)
@@ -105,11 +106,12 @@ total (la suma de todos sus contenedores).*/
                 {
                     pesoAcumulado += PesoCont[i][b];
                 }
-                if (pesoAcumulado < minPeso)
+                if (pesoAcumulado < aux)
                 {
                     minPeso = pesoAcumulado;
                     navePeso = Naves[i].nombreNave();
                 }
+                aux = pesoAcumulado;
             }
             Console.WriteLine($"la nave con menor peso acumulado es {navePeso} con un peso total de {minPeso} toneladas.");
         }
