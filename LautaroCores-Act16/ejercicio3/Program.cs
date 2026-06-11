@@ -19,41 +19,42 @@ Crear un objeto de cada clase y mostrar todos sus datos por consola.*/
         private string marca;
         private int velocidadMaxima;
 
-        public string Marca { get { return marca; } set { marca = value; } }
-        public int VelocidadMaxima { get { return velocidadMaxima; } set { velocidadMaxima = value; } }
-     
+        public Vehiculo(string a, int v) 
+        {
+            marca = a;
+            velocidadMaxima = v;
+        }
     }
 
     internal class Auto : Vehiculo
     {
         private int cantidadPuertas;
-        public int CantidadPuertas { get { return cantidadPuertas; } set { cantidadPuertas = value; } }
+
+        public Auto(int c,string a, int v): base(a,v)
+        {
+            cantidadPuertas = c;
+            Console.WriteLine($"Auto  Marca: {a}, Velocidad maxima: {v}, Cantidad de puertas: {c}");
+        }
     
     }
 
     internal class Moto : Vehiculo
     {
         private int cilindrada;
-        public int Cilindrada { get { return cilindrada; } set { cilindrada = value; } }
-    
+
+        public Moto(int c, string a , int v) : base(a,v)
+        {
+            cilindrada = c;
+            Console.WriteLine($"Moto  Marca: {a}, Velocidad maxima: {v}, Cilindrada: {c}");
+        }
     }
 
     internal class Program
     {
         static void Main(string[] args)
         {
-            Auto auto = new Auto();
-            auto.Marca = "Toyota";
-            auto.VelocidadMaxima = 180;
-            auto.CantidadPuertas = 4;
-
-            Moto moto = new Moto();
-            moto.Marca = "Honda";
-            moto.VelocidadMaxima = 160;
-            moto.Cilindrada = 250;
-
-            Console.WriteLine($"Auto  Marca: {auto.Marca}, Velocidad maxima: {auto.VelocidadMaxima}, Cantidad de puertas: {auto.CantidadPuertas}");
-            Console.WriteLine($"Moto  Marca: {moto.Marca}, Velocidad maxima: {moto.VelocidadMaxima}, Cilindrada: {moto.Cilindrada}");
+            Auto auto = new Auto(4, "Toyota" , 180);
+            Moto moto = new Moto(250, "Honda" ,160);
             Console.ReadKey();
         }
     }
