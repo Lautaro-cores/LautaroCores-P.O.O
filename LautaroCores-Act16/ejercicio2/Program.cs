@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,6 +21,8 @@ inventario.*/
         private string nombre;
         private double precio;
         private int stock;
+
+
         public string Nombre
         {
             get { return nombre; }
@@ -30,23 +33,36 @@ inventario.*/
             get { return precio; }
             set
             {
-                if (value > 0)
-                    precio = value;
+                if (value < 0)
+                {
+                    Console.WriteLine("el precio no puede ser negativo");
+                    string linea = Console.ReadLine();
+                    Precio = int.Parse(linea);
+                }
                 else
-                    Console.WriteLine("El precio debe ser mayor a cero.");
-            }
+                {
+                    precio = value;
+                }
+        }
         }
         public int Stock
         {
             get { return stock; }
             set
             {
-                if (value >= 0)
-                    stock = value;
+                if (value < 0)
+                {
+                    Console.WriteLine("el stock no puede ser negativo");
+                    string linea = Console.ReadLine();
+                    Stock = int.Parse(linea);
+                }
                 else
-                    Console.WriteLine("El stock no puede ser negativo.");
+                {
+                    stock = value;
+                }
             }
         }
+   
     }
 
     internal class Inventario
@@ -56,20 +72,18 @@ inventario.*/
         public Inventario()
         {
             productos = new Producto[3];
-            productos[0] = new Producto();
-            productos[0].Nombre = "Teclado";
-            productos[0].Precio = 5500;
-            productos[0].Stock = 10;
-
-            productos[1] = new Producto();
-            productos[1].Nombre = "Monitor";
-            productos[1].Precio = 85000;
-            productos[1].Stock = 3;
-
-            productos[2] = new Producto();
-            productos[2].Nombre = "Mouse";
-            productos[2].Precio = 3200;
-            productos[2].Stock = 15;
+            for (int i = 0; i < 3; i++)
+            {
+                productos[i] = new Producto();
+                Console.WriteLine("Ingrese el nombre del producto ");
+                productos[i].Nombre = Console.ReadLine();
+                Console.WriteLine("Ingrese el precio del producto");
+                string linea = Console.ReadLine();
+                productos[i].Precio = int.Parse(linea);
+                Console.WriteLine("Ingrese el stock del producto");
+                linea = Console.ReadLine();
+                productos[i].Stock = int.Parse(linea);
+            }
         }
 
         public void MostrarProductos()
