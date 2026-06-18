@@ -18,6 +18,15 @@ Empleado y llamar a sus métodos y propiedades.*/
     {
         private string nombre;
         private int edad;
+
+        public Persona()
+        {
+            Console.WriteLine("Ingrese el nombre de la persona: ");
+            nombre = Console.ReadLine();
+            Console.WriteLine("Ingrese la edad de la persona: ");
+            edad = int.Parse(Console.ReadLine());
+        }
+
         public string Nombre
         {
             get { return nombre; }
@@ -37,6 +46,13 @@ Empleado y llamar a sus métodos y propiedades.*/
     internal class Empleado : Persona
     {
         private double sueldo;
+
+        public Empleado()
+        {
+            Console.WriteLine("Ingrese el sueldo del empleado: ");
+            sueldo = double.Parse(Console.ReadLine());
+        }
+
         public double Sueldo
         {
             get { return sueldo; }
@@ -53,14 +69,8 @@ Empleado y llamar a sus métodos y propiedades.*/
         static void Main(string[] args)
         {
             Persona persona = new Persona();
-            persona.Nombre = "Juan";
-            persona.Edad = 30;
-            persona.Imprimir();
-
             Empleado empleado = new Empleado();
-            empleado.Nombre = "Pedro";
-            empleado.Edad = 28;
-            empleado.Sueldo = 50000;
+            persona.Imprimir();
             empleado.Imprimir();
             empleado.ImprimirSueldo();
         }
