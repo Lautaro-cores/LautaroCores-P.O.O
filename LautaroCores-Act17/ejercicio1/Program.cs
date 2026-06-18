@@ -24,6 +24,14 @@ que puede acceder tanto a sus métodos propios como a los de la clase base.*/
         private string nombre;
         private int dni;
 
+        public PersonaGimnasio()
+        {
+           Console.WriteLine("ingrese el nombre de la persona : ");
+           nombre = Console.ReadLine();
+           Console.WriteLine("ingrese el dni de la persona : ");
+           dni = int.Parse(Console.ReadLine());
+        }
+
         public string Nombre { get { return nombre; } set { nombre = value; } }
         public int Dni { get { return dni; } set { dni = value; } }
 
@@ -37,6 +45,12 @@ que puede acceder tanto a sus métodos propios como a los de la clase base.*/
     internal class Profesor : PersonaGimnasio
     {
         private string especialidad;
+
+        public Profesor()
+        {
+            Console.WriteLine("ingrese la especialidad del profesor : ");
+            especialidad = Console.ReadLine();
+        }
         public string Especialidad { get { return especialidad; } set { especialidad = value; } }
 
         public void ImprimirProfesor()
@@ -49,13 +63,8 @@ que puede acceder tanto a sus métodos propios como a los de la clase base.*/
         static void Main(string[] args)
         {
             PersonaGimnasio persona = new PersonaGimnasio();
-            persona.Nombre = "Izanagi";
-            persona.Dni = 8526;
-            persona.Imprimir();
             Profesor profesor = new Profesor();
-            profesor.Nombre = "Robert";
-            profesor.Dni = 8542;
-            profesor.Especialidad = "Yoga";
+            persona.Imprimir();
             profesor.ImprimirProfesor();
             Console.ReadKey();
         }

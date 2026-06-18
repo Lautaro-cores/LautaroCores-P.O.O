@@ -19,30 +19,93 @@ películas ordenadas de mayor a menor en base a su duración. Además, el métod
 informar el título de la película con mejor calificación y cuál es la película más corta del
 catálogo.*/
 {
-    internal class Pelicula
+    class Pelicula
     {
         private string titulo;
         private int duracionMinutos;
         private int calificacion;
 
+        public Pelicula()
+        {
+            Console.WriteLine("Ingrese el titulo de la pelicula : ");
+            titulo = Console.ReadLine();
+
+            do
+            {
+                Console.WriteLine("Ingrese la duracion de la pelicula en minutos : ");
+                duracionMinutos = int.Parse(Console.ReadLine());
+            } while (duracionMinutos <= 0);
+
+            Console.WriteLine("Ingrese la calificacion de la pelicula : ");
+            calificacion = int.Parse(Console.ReadLine());
+            if (calificacion <= 0 || calificacion > 5)
+            {
+                calificacion = 1;
+            }
+        }
         public string Titulo { get { return titulo; } set { titulo = value; } }
         public int DuracionMinutos { get { return duracionMinutos; } set { if (value > 0) { duracionMinutos = value; } } }
         public int Calificacion { get { return calificacion; } set { if (value > 0 && value <= 5) { calificacion = value; } else { calificacion = 1; } } }
     }
-    internal class Catalogo
-    {
-            private Pelicula[] peliculas;
 
-            public Catalogo()
+    class Catalogo
+    {
+        Pelicula[] peliculas = new Pelicula[3];
+
+        public Catalogo()
+        {
+            for (int i = 0; i < peliculas.Length; i++)
             {
-            peliculas = new Pelicula[3];
-            peliculas[0].Titulo =
+                peliculas[i] = new Pelicula();
+            }
+        }
+
+        public void MostrarPeliculas()
+        {
+            for (int i = 0; i < peliculas.Length - 1; i++)
+            {
+                for (int j = 0; j < peliculas.Length - i - 1; j++)
+                {
+                    if (peliculas[j].DuracionMinutos < peliculas[j + 1].DuracionMinutos)
+                    {
+                        var temp = peliculas[j];
+                        peliculas[j] = peliculas[j + 1];
+                        peliculas[j + 1] = temp;
+                    }
+                }
+            }
+
+            foreach (var pelicula in peliculas)
+            {
+                Console.WriteLine($"Titulo: {pelicula.Titulo}, Duracion: {pelicula.DuracionMinutos} minutos, Calificacion: {pelicula.Calificacion}");
+            }
+
+            var merjorCalificada = peliculas[0];
+            var masCorta = peliculas[0];
+
+            for (int i = 0; i < peliculas.Length; i++)
+            {
+
+                if (peliculas[i].Calificacion > merjorCalificada.Calificacion)
+                {
+                    merjorCalificada = peliculas[i];
+                }
+
+                if (peliculas[i].DuracionMinutos < masCorta.DuracionMinutos)
+                {
+                    masCorta = peliculas[i];
+                }
 
             }
 
+            Console.WriteLine($"La pelicula con mejor calificacion es : {merjorCalificada.Titulo} con una calificacion de {merjorCalificada.Calificacion}");
+            Console.WriteLine($"La pelicula mas corta es : {masCorta.Titulo} con una duracion de {masCorta.DuracionMinutos} minutos");
+        }
 
         static void Main(string[] args)
         {
+            Catalogo catalogo = new Catalogo();
+            catalogo.MostrarPeliculas();
         }
     }
 }
