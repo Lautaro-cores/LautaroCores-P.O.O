@@ -83,7 +83,7 @@ catálogo.*/
             var merjorCalificada = peliculas[0];
             var masCorta = peliculas[0];
 
-            for (int i = 0; i < peliculas.Length; i++)
+            for (int i = 0; i < peliculas.Length - 1; i++)
             {
 
                 if (peliculas[i].Calificacion > merjorCalificada.Calificacion)
