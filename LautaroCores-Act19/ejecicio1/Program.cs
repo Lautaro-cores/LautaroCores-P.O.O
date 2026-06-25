@@ -32,8 +32,14 @@ namespace ejecicio1
                     clienteMayorPago = hotel[i].NombreCliente;
                 }
             }
-            Console.WriteLine($"El cliente que pagará mas es: {clienteMayorPago} con un total de ${mayorPago}");
-                }
-            }
+
+            Console.WriteLine($"El cliente que pagara mas es: {clienteMayorPago} con un total de ${mayorPago}");
+            Console.ReadKey();    
 
         }
+        
+    }
+            
+    
+}
+                   

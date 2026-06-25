@@ -28,7 +28,10 @@ namespace ejercicio2
                 }
                 libros[i].Resumen();
             }
-            Console.WriteLine($"El libro más extenso es: {libroMayorPaginas} con {mayorPaginas} páginas.");
+
+            Console.WriteLine($"El libro más extenso es: {libroMayorPaginas} con {mayorPaginas} paginas.");
+            Console.ReadKey();
+
         }
     }
 }

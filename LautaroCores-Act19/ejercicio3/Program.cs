@@ -22,10 +22,12 @@ namespace ejercicio3
 
                 if (juegos[i].SuperaRecord())
                 {
-                    Console.WriteLine($"El jugador {i + 1} rompió el récord del juego {juegos[i].NombreJuego} con un puntaje de {juegos[i].PuntajeMaximo}.");
+                    Console.WriteLine($"El jugador {i + 1} rompio el record del juego {juegos[i].NombreJuego} con un puntaje de {juegos[i].PuntajeMaximo}.");
                 }
 
             }
+
+            Console.ReadKey();
         }
     }
 }
