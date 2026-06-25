@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lautaro\\source\\repos\\LautaroCores-Act19\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BF63FC50-A2FB-4D99-A1B3-3AB245339A64}|ejercicio3\\ejercicio3.csproj|c:\\users\\lautaro\\source\\repos\\lautarocores-act19\\ejercicio3\\archivo1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF63FC50-A2FB-4D99-A1B3-3AB245339A64}|ejercicio3\\ejercicio3.csproj|solutionrelative:ejercicio3\\archivo1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF63FC50-A2FB-4D99-A1B3-3AB245339A64}|ejercicio3\\ejercicio3.csproj|c:\\users\\lautaro\\source\\repos\\lautarocores-act19\\ejercicio3\\archivo2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF63FC50-A2FB-4D99-A1B3-3AB245339A64}|ejercicio3\\ejercicio3.csproj|solutionrelative:ejercicio3\\archivo2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF63FC50-A2FB-4D99-A1B3-3AB245339A64}|ejercicio3\\ejercicio3.csproj|c:\\users\\lautaro\\source\\repos\\lautarocores-act19\\ejercicio3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF63FC50-A2FB-4D99-A1B3-3AB245339A64}|ejercicio3\\ejercicio3.csproj|solutionrelative:ejercicio3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18F71A32-63D0-426F-85F6-9C3DF123014F}|ejecicio1\\ejecicio1.csproj|c:\\users\\lautaro\\source\\repos\\lautarocores-act19\\ejecicio1\\archivo1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18F71A32-63D0-426F-85F6-9C3DF123014F}|ejecicio1\\ejecicio1.csproj|solutionrelative:ejecicio1\\archivo1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68AAC65C-8F18-421E-83D3-6A19E6F2DCB7}|ejercicio2\\ejercicio2.csproj|c:\\users\\lautaro\\source\\repos\\lautarocores-act19\\ejercicio2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68AAC65C-8F18-421E-83D3-6A19E6F2DCB7}|ejercicio2\\ejercicio2.csproj|solutionrelative:ejercicio2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18F71A32-63D0-426F-85F6-9C3DF123014F}|ejecicio1\\ejecicio1.csproj|c:\\users\\lautaro\\source\\repos\\lautarocores-act19\\ejecicio1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18F71A32-63D0-426F-85F6-9C3DF123014F}|ejecicio1\\ejecicio1.csproj|solutionrelative:ejecicio1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18F71A32-63D0-426F-85F6-9C3DF123014F}|ejecicio1\\ejecicio1.csproj|c:\\users\\lautaro\\source\\repos\\lautarocores-act19\\ejecicio1\\archivo2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18F71A32-63D0-426F-85F6-9C3DF123014F}|ejecicio1\\ejecicio1.csproj|solutionrelative:ejecicio1\\archivo2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68AAC65C-8F18-421E-83D3-6A19E6F2DCB7}|ejercicio2\\ejercicio2.csproj|c:\\users\\lautaro\\source\\repos\\lautarocores-act19\\ejercicio2\\archivo2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68AAC65C-8F18-421E-83D3-6A19E6F2DCB7}|ejercicio2\\ejercicio2.csproj|solutionrelative:ejercicio2\\archivo2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68AAC65C-8F18-421E-83D3-6A19E6F2DCB7}|ejercicio2\\ejercicio2.csproj|c:\\users\\lautaro\\source\\repos\\lautarocores-act19\\ejercicio2\\archivo1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68AAC65C-8F18-421E-83D3-6A19E6F2DCB7}|ejercicio2\\ejercicio2.csproj|solutionrelative:ejercicio2\\archivo1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "archivo2.cs",
+              "DocumentMoniker": "C:\\Users\\lautaro\\source\\repos\\LautaroCores-Act19\\ejercicio3\\archivo2.cs",
+              "RelativeDocumentMoniker": "ejercicio3\\archivo2.cs",
+              "ToolTip": "C:\\Users\\lautaro\\source\\repos\\LautaroCores-Act19\\ejercicio3\\archivo2.cs",
+              "RelativeToolTip": "ejercicio3\\archivo2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T04:08:29.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "archivo1.cs",
+              "DocumentMoniker": "C:\\Users\\lautaro\\source\\repos\\LautaroCores-Act19\\ejercicio3\\archivo1.cs",
+              "RelativeDocumentMoniker": "ejercicio3\\archivo1.cs",
+              "ToolTip": "C:\\Users\\lautaro\\source\\repos\\LautaroCores-Act19\\ejercicio3\\archivo1.cs",
+              "RelativeToolTip": "ejercicio3\\archivo1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T04:08:16.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lautaro\\source\\repos\\LautaroCores-Act19\\ejercicio3\\Program.cs",
+              "RelativeDocumentMoniker": "ejercicio3\\Program.cs",
+              "ToolTip": "C:\\Users\\lautaro\\source\\repos\\LautaroCores-Act19\\ejercicio3\\Program.cs",
+              "RelativeToolTip": "ejercicio3\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T04:07:49.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "archivo2.cs",
+              "DocumentMoniker": "C:\\Users\\lautaro\\source\\repos\\LautaroCores-Act19\\ejercicio2\\archivo2.cs",
+              "RelativeDocumentMoniker": "ejercicio2\\archivo2.cs",
+              "ToolTip": "C:\\Users\\lautaro\\source\\repos\\LautaroCores-Act19\\ejercicio2\\archivo2.cs",
+              "RelativeToolTip": "ejercicio2\\archivo2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T04:03:12.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "archivo1.cs",
+              "DocumentMoniker": "C:\\Users\\lautaro\\source\\repos\\LautaroCores-Act19\\ejercicio2\\archivo1.cs",
+              "RelativeDocumentMoniker": "ejercicio2\\archivo1.cs",
+              "ToolTip": "C:\\Users\\lautaro\\source\\repos\\LautaroCores-Act19\\ejercicio2\\archivo1.cs",
+              "RelativeToolTip": "ejercicio2\\archivo1.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAC4AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T04:02:59.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lautaro\\source\\repos\\LautaroCores-Act19\\ejercicio2\\Program.cs",
+              "RelativeDocumentMoniker": "ejercicio2\\Program.cs",
+              "ToolTip": "C:\\Users\\lautaro\\source\\repos\\LautaroCores-Act19\\ejercicio2\\Program.cs",
+              "RelativeToolTip": "ejercicio2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T03:52:33.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "archivo2.cs",
+              "DocumentMoniker": "C:\\Users\\lautaro\\source\\repos\\LautaroCores-Act19\\ejecicio1\\archivo2.cs",
+              "RelativeDocumentMoniker": "ejecicio1\\archivo2.cs",
+              "ToolTip": "C:\\Users\\lautaro\\source\\repos\\LautaroCores-Act19\\ejecicio1\\archivo2.cs",
+              "RelativeToolTip": "ejecicio1\\archivo2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T03:29:18.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "archivo1.cs",
+              "DocumentMoniker": "C:\\Users\\lautaro\\source\\repos\\LautaroCores-Act19\\ejecicio1\\archivo1.cs",
+              "RelativeDocumentMoniker": "ejecicio1\\archivo1.cs",
+              "ToolTip": "C:\\Users\\lautaro\\source\\repos\\LautaroCores-Act19\\ejecicio1\\archivo1.cs",
+              "RelativeToolTip": "ejecicio1\\archivo1.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwCQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T03:29:05.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lautaro\\source\\repos\\LautaroCores-Act19\\ejecicio1\\Program.cs",
+              "RelativeDocumentMoniker": "ejecicio1\\Program.cs",
+              "ToolTip": "C:\\Users\\lautaro\\source\\repos\\LautaroCores-Act19\\ejecicio1\\Program.cs",
+              "RelativeToolTip": "ejecicio1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T03:25:05.18Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
