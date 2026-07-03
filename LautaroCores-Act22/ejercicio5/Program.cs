@@ -140,5 +140,6 @@ o El corredor más rápido.
         }
         Console.WriteLine($"El corredor mas rapido de todas las carreras es {CorredorRapido.Nombre}, con un tiempo de {CorredorRapido.TiempoTotal} minutos");
         Console.WriteLine($"La carrera mas larga fue la: {masLarga.Codigo}, durando {masLarga.DuracionCarrera()}");
+        Console.ReadKey();
     }
 }

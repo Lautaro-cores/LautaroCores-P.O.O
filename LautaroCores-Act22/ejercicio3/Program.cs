@@ -80,6 +80,7 @@ más corto.*/
 
             Console.WriteLine($"El entrenamiento mas largo es: {masLargo.Deportista} con {masLargo.Duracion} minutos");
             Console.WriteLine($"El entrenamiento mas corto es: {masCorto.Deportista} con {masCorto.Duracion} minutos");
+            Console.ReadKey();
         }
     }
     }
