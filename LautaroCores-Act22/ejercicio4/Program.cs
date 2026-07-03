@@ -64,7 +64,7 @@ los atributos.
                 }
             }
         
-            Console.WriteLine($"El vuelo mas largo es: {vueloLargo.Codigo} con una duracion de: {vueloLargo.DuracionVuelo()}");
+            Console.WriteLine($"El vuelo mas largo es: {vueloLargo.Codigo}, con una duracion de: {vueloLargo.DuracionVuelo()}");
             Console.WriteLine($"El vuelo que sale más temprano es: {vueloTemprano.Codigo}, saliendo a las: {vueloTemprano.HoraSalida}");
             Console.ReadKey();
         }

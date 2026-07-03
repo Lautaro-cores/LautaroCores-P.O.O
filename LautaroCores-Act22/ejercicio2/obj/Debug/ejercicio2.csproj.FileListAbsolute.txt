@@ -5,3 +5,10 @@ C:\Users\lautaro\Downloads\git\LautaroCores-P.O.O\LautaroCores-Act22\ejercicio2\
 C:\Users\lautaro\Downloads\git\LautaroCores-P.O.O\LautaroCores-Act22\ejercicio2\obj\Debug\ejercicio2.csproj.CoreCompileInputs.cache
 C:\Users\lautaro\Downloads\git\LautaroCores-P.O.O\LautaroCores-Act22\ejercicio2\obj\Debug\ejercicio2.exe
 C:\Users\lautaro\Downloads\git\LautaroCores-P.O.O\LautaroCores-Act22\ejercicio2\obj\Debug\ejercicio2.pdb
+C:\Users\alumno.ET26\Downloads\LautaroCores-P.O.O-main (4)\LautaroCores-P.O.O-main\LautaroCores-Act22\ejercicio2\bin\Debug\ejercicio2.exe.config
+C:\Users\alumno.ET26\Downloads\LautaroCores-P.O.O-main (4)\LautaroCores-P.O.O-main\LautaroCores-Act22\ejercicio2\bin\Debug\ejercicio2.exe
+C:\Users\alumno.ET26\Downloads\LautaroCores-P.O.O-main (4)\LautaroCores-P.O.O-main\LautaroCores-Act22\ejercicio2\bin\Debug\ejercicio2.pdb
+C:\Users\alumno.ET26\Downloads\LautaroCores-P.O.O-main (4)\LautaroCores-P.O.O-main\LautaroCores-Act22\ejercicio2\obj\Debug\ejercicio2.csproj.AssemblyReference.cache
+C:\Users\alumno.ET26\Downloads\LautaroCores-P.O.O-main (4)\LautaroCores-P.O.O-main\LautaroCores-Act22\ejercicio2\obj\Debug\ejercicio2.csproj.CoreCompileInputs.cache
+C:\Users\alumno.ET26\Downloads\LautaroCores-P.O.O-main (4)\LautaroCores-P.O.O-main\LautaroCores-Act22\ejercicio2\obj\Debug\ejercicio2.exe
+C:\Users\alumno.ET26\Downloads\LautaroCores-P.O.O-main (4)\LautaroCores-P.O.O-main\LautaroCores-Act22\ejercicio2\obj\Debug\ejercicio2.pdb

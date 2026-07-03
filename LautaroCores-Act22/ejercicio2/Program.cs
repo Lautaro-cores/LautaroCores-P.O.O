@@ -34,6 +34,7 @@ consola.*/
 
         public void Mostrar()
         {
+            Console.Clear();
             Console.SetCursorPosition(PosX, PosY);
             Console.Write(Nombre);
         }
@@ -45,12 +46,20 @@ consola.*/
         {
             ElementoPantalla[] elementos = new ElementoPantalla[4];
 
-            elementos[0] = new ElementoPantalla("Elemento 1", 10, 5);
-            elementos[1] = new ElementoPantalla("Elemento 2", 25, 14);
-            elementos[2] = new ElementoPantalla("Elemento 3", 67, 25);
-            elementos[3] = new ElementoPantalla("Elemento 4", 43, 22);
-
-            foreach (var elemento in elementos)
+            for (int i = 0; i < elementos.Length; i++)
+            {
+                Console.WriteLine("Ingrese el nombre a mostrar");
+                string nombre = Console.ReadLine();
+                Console.WriteLine("Ingrese en que posicion horizontal");
+                int posx = int.Parse(Console.ReadLine());
+                Console.WriteLine("Ingrese en que posicion vertical");
+                int posy = int.Parse(Console.ReadLine());
+                ElementoPantalla elemento = new ElementoPantalla(nombre,posx,posy);
+                elementos[i] = elemento;
+            }
+        
+    
+                foreach (var elemento in elementos)
             {
                 elemento.Mostrar();
             }
@@ -59,3 +68,4 @@ consola.*/
         }
     }
 }
+

@@ -1,6 +1,8 @@
-﻿using System;
+﻿using ejercicio5;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -40,6 +42,29 @@ o El corredor más rápido.
         public Carrera()
         {
             this.Corredores = new List<Corredor>();
+            Console.WriteLine("Ingrese el codigo de la carrera");
+            Codigo = Console.ReadLine();
+            Console.WriteLine("ingrese a que horario inicia");
+            HoraInicio = DateTime.Parse(Console.ReadLine());
+            Console.WriteLine("Ingrese a que horario de termina ");
+            horaFin = DateTime.Parse(Console.ReadLine());
+            Console.WriteLine("Cuantos corredores corren esta carrera");
+            int cant = int.Parse(Console.ReadLine());
+            for (int i = 0; i < cant; i++)
+            {
+                
+                Console.WriteLine("Ingrese el nombre del corredor");
+                string nombre = Console.ReadLine();
+                Console.WriteLine("ingrese su dorsal");
+                int dorsal = int.Parse(Console.ReadLine());
+                Corredor Corredor = new Corredor(nombre, dorsal);
+                Console.WriteLine("Ingrese cuanto tiempo estuvo en la carrera");
+                Corredor.RegistrarTiempo(int.Parse(Console.ReadLine()));
+                Corredores.Add(Corredor);
+            }
+
+
+            
         }
         public Carrera(string codigo, DateTime horaInicio, DateTime horaFin, List<Corredor> corredores)
         {
@@ -53,38 +78,67 @@ o El corredor más rápido.
             TimeSpan duracion = HoraFin - HoraInicio;
             return duracion;
         }
-    }
+    }}
     
     class Corredor
     {
         private string nombre;
         private int numeroDorsal;
-        private TimeSpan tiempoTotal;
+        private int tiempoTotal;
 
         public string Nombre { get { return nombre; } set { nombre = value; } }
         public int NumeroDorsal { get { return numeroDorsal; } set { numeroDorsal = value; } }
-        public TimeSpan TiempoTotal { get { return tiempoTotal; } set { tiempoTotal = value; } }
+        public int TiempoTotal { get { return tiempoTotal; } set { tiempoTotal = value; } }
         
-        public Corredor(string nombre, int numeroDorsal)
+        public Corredor(string Nombre, int NumeroDorsal)
         {
-            this.Nombre = nombre;
-            this.NumeroDorsal = numeroDorsal;
-            this.TiempoTotal = new TimeSpan(0, 0, 0);
+            this.Nombre = Nombre;
+            this.NumeroDorsal= NumeroDorsal;
         }
 
         public void RegistrarTiempo(int minutos)
         {
-            this.TiempoTotal = new TimeSpan(0, minutos, 0);
+            this.TiempoTotal = minutos;
         }
         public void RegistrarTiempo(int horas, int minutos)
         {
-            this.TiempoTotal = new TimeSpan(horas, minutos, 0);
+            this.TiempoTotal = horas + 60 + minutos;
         }
     
         static void Main(string[] args)
         {
-
-
+        List<Carrera> carreras = new List<Carrera>();
+        Console.WriteLine("Ingrese cuantas carreras hay");
+        int cant = int.Parse(Console.ReadLine());
+        for (int i = 0; i < cant; i++)
+        {
+            Carrera carrera = new Carrera();
+            carreras.Add(carrera);
         }
+
+        Carrera masLarga = carreras[0];
+        var CorredorRapido = carreras[0].Corredores[0]
+        ;
+        foreach (var c in carreras)
+        {
+            
+            for (int i = 0; i < c.Corredores.Count; i++)
+            {
+                if (CorredorRapido.TiempoTotal > c.Corredores[i].TiempoTotal)
+                {
+                    CorredorRapido = c.Corredores[i];
+                }
+       
+            }
+
+
+                if (masLarga.DuracionCarrera() < c.DuracionCarrera())
+            {
+                masLarga = c;
+            }
+  
+        }
+        Console.WriteLine($"El corredor mas rapido de todas las carreras es {CorredorRapido.Nombre}, con un tiempo de {CorredorRapido.TiempoTotal} minutos");
+        Console.WriteLine($"La carrera mas larga fue la: {masLarga.Codigo}, durando {masLarga.DuracionCarrera()}");
     }
 }

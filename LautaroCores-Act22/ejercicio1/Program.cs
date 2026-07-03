@@ -61,18 +61,14 @@ que cargue valores por defecto (sobrecarga de constructores).
             }
 
             ClaseGimnasio claseMasLarga = Clase[0];
+            ClaseGimnasio claseMasTemprana = Clase[0];         
             foreach (var clase in Clase)
             {
                 if (clase.DuracionClase() > claseMasLarga.DuracionClase())
                 {
                     claseMasLarga = clase;
-                    
-                }
-            }
 
-            ClaseGimnasio claseMasTemprana = Clase[0];
-            foreach (var clase in Clase)
-            {
+                }
                 if (clase.HoraInicio < claseMasTemprana.HoraInicio)
                 {
                     claseMasTemprana = clase;

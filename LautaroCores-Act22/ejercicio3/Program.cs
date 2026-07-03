@@ -48,19 +48,34 @@ más corto.*/
                 Console.WriteLine($"Ingrese el nombre del deportista:");
                 string nombre = Console.ReadLine();
                 Entrenamiento entrenamiento = new Entrenamiento(nombre);
-                Console.WriteLine($"Ingrese la duracion del entrenamiento en horas y minutos:");
+                Console.WriteLine($"Ingrese las horas del entrenamiento:");
                 int horas = int.Parse(Console.ReadLine());
+                Console.WriteLine($"Ingrese los minutos del entrenamiento:");
                 int minutos = int.Parse(Console.ReadLine());
-                entrenamiento.RegistrarDuracion(horas, minutos);
-                entrenamientos.Add(entrenamiento);
+                if (horas < 0)
+                {
+                    entrenamiento.RegistrarDuracion(minutos);
+                }
+                else
+                {
+                    entrenamiento.RegistrarDuracion(horas,minutos);
+                }
+
+                    entrenamientos.Add(entrenamiento);
             }
 
             Entrenamiento masLargo = entrenamientos[0];
             Entrenamiento masCorto = entrenamientos[0];
             foreach (var e in entrenamientos)
             {
-                if (e.Duracion > masLargo.Duracion) masLargo = e;
-                if (e.Duracion < masCorto.Duracion) masCorto = e;
+                if (e.Duracion > masLargo.Duracion)
+                {
+                    masLargo = e;
+                }
+                if (e.Duracion < masCorto.Duracion) 
+                {
+                    masCorto = e; 
+                }
             }
 
             Console.WriteLine($"El entrenamiento mas largo es: {masLargo.Deportista} con {masLargo.Duracion} minutos");
