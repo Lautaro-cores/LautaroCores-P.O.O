@@ -36,17 +36,17 @@ que cargue valores por defecto (sobrecarga de constructores).
         }
 
 
-        public ClaseGimnasio(string nombreClase, DateTime horaInicio, DateTime HoraFin) {
+        public ClaseGimnasio(string nombreClase, DateTime horaInicio, DateTime horaFin) {
         
             this.NombreClase= nombreClase;
             this.HoraInicio= horaInicio;
-            this.HoraFin= horaFin;
+            this.HoraFin = horaFin;
         }
 
-        public void DuracionClase() 
+        public TimeSpan DuracionClase() 
         {
-            TimeSpan Duracion = HoraInicio - HoraFin;
-            Console.WriteLine($"La clase duro {Duracion}");
+            TimeSpan Duracion = HoraFin - HoraInicio;
+            return Duracion;
 
         }
 
@@ -56,10 +56,32 @@ que cargue valores por defecto (sobrecarga de constructores).
 
             for( int i = 0; i < Clase.Length; i++)
             {
-                Clase[i] = new ClaseGimnasio() 
+                Clase[i] = new ClaseGimnasio();
 
             }
+
+            ClaseGimnasio claseMasLarga = Clase[0];
+            foreach (var clase in Clase)
+            {
+                if (clase.DuracionClase() > claseMasLarga.DuracionClase())
+                {
+                    claseMasLarga = clase;
+                    
+                }
+            }
+
+            ClaseGimnasio claseMasTemprana = Clase[0];
+            foreach (var clase in Clase)
+            {
+                if (clase.HoraInicio < claseMasTemprana.HoraInicio)
+                {
+                    claseMasTemprana = clase;
+                }
+            }
+            Console.WriteLine($"La clase con mayor duracion es: {claseMasLarga.NombreClase}, con una duracion de {claseMasLarga.DuracionClase()}");
+            Console.WriteLine($"La clase mas temprana es: {claseMasTemprana.NombreClase}, iniciando a las {claseMasTemprana.HoraInicio}");
+            Console.ReadKey();
         }
     }
 }
-}
+

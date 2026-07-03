@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lautaro\\Downloads\\git\\LautaroCores-P.O.O\\LautaroCores-Act22\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2ECDAB74-72EC-4536-9528-978B26232E6B}|ejercicio5\\ejercicio5.csproj|c:\\users\\lautaro\\downloads\\git\\lautarocores-p.o.o\\lautarocores-act22\\ejercicio5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2ECDAB74-72EC-4536-9528-978B26232E6B}|ejercicio5\\ejercicio5.csproj|solutionrelative:ejercicio5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DF85BA1-AB4D-446B-8672-3C4DAD82912F}|ejercicio4\\ejercicio4.csproj|c:\\users\\lautaro\\downloads\\git\\lautarocores-p.o.o\\lautarocores-act22\\ejercicio4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DF85BA1-AB4D-446B-8672-3C4DAD82912F}|ejercicio4\\ejercicio4.csproj|solutionrelative:ejercicio4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0360B2C-52FC-442F-8AC6-0C25F98A8941}|ejercicio1\\ejercicio1.csproj|c:\\users\\lautaro\\downloads\\git\\lautarocores-p.o.o\\lautarocores-act22\\ejercicio1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0360B2C-52FC-442F-8AC6-0C25F98A8941}|ejercicio1\\ejercicio1.csproj|solutionrelative:ejercicio1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45DF8C41-CCA1-4F35-9DB9-A3B21CB220EB}|ejercicio2\\ejercicio2.csproj|c:\\users\\lautaro\\downloads\\git\\lautarocores-p.o.o\\lautarocores-act22\\ejercicio2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45DF8C41-CCA1-4F35-9DB9-A3B21CB220EB}|ejercicio2\\ejercicio2.csproj|solutionrelative:ejercicio2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58AC9387-7611-44A3-A36C-6DD952DC41B6}|ejercicio3\\ejercicio3.csproj|c:\\users\\lautaro\\downloads\\git\\lautarocores-p.o.o\\lautarocores-act22\\ejercicio3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58AC9387-7611-44A3-A36C-6DD952DC41B6}|ejercicio3\\ejercicio3.csproj|solutionrelative:ejercicio3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lautaro\\Downloads\\git\\LautaroCores-P.O.O\\LautaroCores-Act22\\ejercicio5\\Program.cs",
+              "RelativeDocumentMoniker": "ejercicio5\\Program.cs",
+              "ToolTip": "C:\\Users\\lautaro\\Downloads\\git\\LautaroCores-P.O.O\\LautaroCores-Act22\\ejercicio5\\Program.cs",
+              "RelativeToolTip": "ejercicio5\\Program.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAQwIUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T01:08:22.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lautaro\\Downloads\\git\\LautaroCores-P.O.O\\LautaroCores-Act22\\ejercicio4\\Program.cs",
+              "RelativeDocumentMoniker": "ejercicio4\\Program.cs",
+              "ToolTip": "C:\\Users\\lautaro\\Downloads\\git\\LautaroCores-P.O.O\\LautaroCores-Act22\\ejercicio4\\Program.cs",
+              "RelativeToolTip": "ejercicio4\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACsAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T00:54:22.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lautaro\\Downloads\\git\\LautaroCores-P.O.O\\LautaroCores-Act22\\ejercicio3\\Program.cs",
+              "RelativeDocumentMoniker": "ejercicio3\\Program.cs",
+              "ToolTip": "C:\\Users\\lautaro\\Downloads\\git\\LautaroCores-P.O.O\\LautaroCores-Act22\\ejercicio3\\Program.cs",
+              "RelativeToolTip": "ejercicio3\\Program.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAADwv0IAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T00:42:40.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lautaro\\Downloads\\git\\LautaroCores-P.O.O\\LautaroCores-Act22\\ejercicio2\\Program.cs",
+              "RelativeDocumentMoniker": "ejercicio2\\Program.cs",
+              "ToolTip": "C:\\Users\\lautaro\\Downloads\\git\\LautaroCores-P.O.O\\LautaroCores-Act22\\ejercicio2\\Program.cs",
+              "RelativeToolTip": "ejercicio2\\Program.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAwwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T00:35:11.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lautaro\\Downloads\\git\\LautaroCores-P.O.O\\LautaroCores-Act22\\ejercicio1\\Program.cs",
+              "RelativeDocumentMoniker": "ejercicio1\\Program.cs",
+              "ToolTip": "C:\\Users\\lautaro\\Downloads\\git\\LautaroCores-P.O.O\\LautaroCores-Act22\\ejercicio1\\Program.cs",
+              "RelativeToolTip": "ejercicio1\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAFMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T00:23:47.66Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

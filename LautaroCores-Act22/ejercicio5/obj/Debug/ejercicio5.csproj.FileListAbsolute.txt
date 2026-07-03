@@ -1,0 +1,7 @@
+C:\Users\lautaro\Downloads\git\LautaroCores-P.O.O\LautaroCores-Act22\ejercicio5\bin\Debug\ejercicio5.exe.config
+C:\Users\lautaro\Downloads\git\LautaroCores-P.O.O\LautaroCores-Act22\ejercicio5\bin\Debug\ejercicio5.exe
+C:\Users\lautaro\Downloads\git\LautaroCores-P.O.O\LautaroCores-Act22\ejercicio5\bin\Debug\ejercicio5.pdb
+C:\Users\lautaro\Downloads\git\LautaroCores-P.O.O\LautaroCores-Act22\ejercicio5\obj\Debug\ejercicio5.csproj.AssemblyReference.cache
+C:\Users\lautaro\Downloads\git\LautaroCores-P.O.O\LautaroCores-Act22\ejercicio5\obj\Debug\ejercicio5.csproj.CoreCompileInputs.cache
+C:\Users\lautaro\Downloads\git\LautaroCores-P.O.O\LautaroCores-Act22\ejercicio5\obj\Debug\ejercicio5.exe
+C:\Users\lautaro\Downloads\git\LautaroCores-P.O.O\LautaroCores-Act22\ejercicio5\obj\Debug\ejercicio5.pdb
