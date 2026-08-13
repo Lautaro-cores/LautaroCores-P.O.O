@@ -1,0 +1,7 @@
+C:\Users\lautaro\Downloads\git\LautaroCores-P.O.O\LautaroCores-Act23\ejercicio6\bin\Debug\ejercicio6.exe.config
+C:\Users\lautaro\Downloads\git\LautaroCores-P.O.O\LautaroCores-Act23\ejercicio6\bin\Debug\ejercicio6.exe
+C:\Users\lautaro\Downloads\git\LautaroCores-P.O.O\LautaroCores-Act23\ejercicio6\bin\Debug\ejercicio6.pdb
+C:\Users\lautaro\Downloads\git\LautaroCores-P.O.O\LautaroCores-Act23\ejercicio6\obj\Debug\ejercicio6.csproj.AssemblyReference.cache
+C:\Users\lautaro\Downloads\git\LautaroCores-P.O.O\LautaroCores-Act23\ejercicio6\obj\Debug\ejercicio6.csproj.CoreCompileInputs.cache
+C:\Users\lautaro\Downloads\git\LautaroCores-P.O.O\LautaroCores-Act23\ejercicio6\obj\Debug\ejercicio6.exe
+C:\Users\lautaro\Downloads\git\LautaroCores-P.O.O\LautaroCores-Act23\ejercicio6\obj\Debug\ejercicio6.pdb

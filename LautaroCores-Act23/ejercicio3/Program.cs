@@ -25,8 +25,64 @@ namespace ejercicio3
 {
     internal class MonitoreoCostero
     {
+        List<string> especiesDetectadas = new List<string>();
+
+        public void CargarAvistamientos()
+        {
+            string especie;
+            do
+            {
+                Console.WriteLine("Ingrese el nombre de la especie avistada (ingrese 'FIN' para terminar):");
+                especie = Console.ReadLine();
+                if (especie != "FIN")
+                {
+                    especiesDetectadas.Add(especie);
+                }
+            } while (especie != "FIN");
+        }
+
+        public void MostrarReporteOrdenado()
+        {
+            especiesDetectadas.Sort();
+            Console.WriteLine("Reporte de avistamientos ordenado alfabeticamente:");
+            foreach (var especie in especiesDetectadas)
+            {
+                Console.WriteLine(especie);
+            }
+        }
+
+        public void MostrarReporteInvertido()
+        {
+            especiesDetectadas.Sort();
+            especiesDetectadas.Reverse();
+            Console.WriteLine("Reporte de avistamientos ordenado de la Z a la A:");
+            foreach (var especie in especiesDetectadas)
+            {
+                Console.WriteLine(especie);
+            }
+        }
+
+        public void BuscarEspecie()
+        {
+            Console.WriteLine("Ingrese el nombre de la especie a buscar:");
+            string especieBuscada = Console.ReadLine();
+            if (especiesDetectadas.Contains(especieBuscada))
+            {
+                Console.WriteLine($"La especie '{especieBuscada}' fue encontrada en la costa.");
+            }
+            else
+            {
+                Console.WriteLine($"La especie '{especieBuscada}' no fue encontrada en la costa.");
+            }
+        }
+        
         static void Main(string[] args)
         {
+            MonitoreoCostero monitoreo = new MonitoreoCostero();
+            monitoreo.CargarAvistamientos();
+            monitoreo.MostrarReporteOrdenado();
+            monitoreo.MostrarReporteInvertido();
+            monitoreo.BuscarEspecie();
         }
     }
 }

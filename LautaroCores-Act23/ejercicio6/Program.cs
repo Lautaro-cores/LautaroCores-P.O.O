@@ -26,10 +26,88 @@ los métodos de búsqueda y remoción de listas, eliminarlo de la
 colección si se encuentra presente.*/
 namespace ejercicio6
 {
-    internal class Program
+    class Libro
     {
+        private string titulo;
+        private int anioPublicacion;
+        public string Titulo
+        {
+            get { return titulo; }
+        }
+        public int AnioPublicacion
+        {
+            get { return anioPublicacion; }
+        }
+        public Libro(string tit, int anio)
+        {
+            titulo = tit;
+            anioPublicacion = anio;
+        }
+    }
+    internal class BibliotecaCentral
+    {
+        List<Libro> catalogo = new List<Libro>();
+        public void CargarCatalogo()
+        {
+            string titulo;
+            int anio;
+            do
+            {
+                Console.WriteLine("Ingrese el titulo del libro (ingrese 'FIN' para terminar):");
+                titulo = Console.ReadLine();
+                if (titulo != "FIN")
+                {
+                    Console.WriteLine("Ingrese el año de publicación del libro:");
+                    anio = int.Parse(Console.ReadLine());
+                    Libro libro = new Libro(titulo, anio);
+                    catalogo.Add(libro);
+                }
+            } while (titulo != "FIN");
+        }
+        public void ListarCatalogo()
+        {
+            Console.WriteLine("Catalogo de libros:");
+            foreach (var libro in catalogo)
+            {
+                Console.WriteLine($"Titulo: {libro.Titulo}, Año de publicacion: {libro.AnioPublicacion}");
+            }
+            Console.WriteLine($"Cantidad total de obras registradas: {catalogo.Count}");
+        }
+        public void FiltrarPorAnio()
+        {
+            Console.WriteLine("Ingrese un año para filtrar los libros publicados antes de ese año:");
+            int anioFiltro = int.Parse(Console.ReadLine());
+            var librosFiltrados = catalogo.Where(libro => libro.AnioPublicacion < anioFiltro).ToList();
+            Console.WriteLine($"Libros publicados antes de {anioFiltro}:");
+            foreach (var libro in librosFiltrados)
+            {
+                Console.WriteLine($"Titulo: {libro.Titulo}, Año de publicacion: {libro.AnioPublicacion}");
+            }
+        }
+        public void RemoverLibro()
+        {
+            Console.WriteLine("Ingrese el titulo del libro que desea remover:");
+            string tituloRemover = Console.ReadLine();
+            var libroARemover = catalogo.FirstOrDefault(libro => libro.Titulo == tituloRemover);
+            if (libroARemover != null)
+            {
+                catalogo.Remove(libroARemover);
+                Console.WriteLine($"El libro '{tituloRemover}' ha sido removido del catalogo.");
+            }
+            else
+            {
+                Console.WriteLine($"El libro '{tituloRemover}' no se encuentra en el catalogo.");
+            }
+        }
+    
         static void Main(string[] args)
         {
+            BibliotecaCentral biblioteca = new BibliotecaCentral();
+            biblioteca.CargarCatalogo();
+            biblioteca.ListarCatalogo();
+            biblioteca.FiltrarPorAnio();
+            biblioteca.RemoverLibro();
+            biblioteca.ListarCatalogo();
         }
     }
 }
